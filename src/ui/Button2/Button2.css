@@ -1,0 +1,8 @@
+.btn2{
+    padding:10px;
+    background-color: var(--color-base2);
+    color: var(--color-base1);
+    font-size: 18px;
+    margin-right: 100px;
+    border: none;
+}

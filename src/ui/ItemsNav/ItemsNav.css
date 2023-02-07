@@ -1,0 +1,25 @@
+.nav {
+    width: 500px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 500px;
+    color: var(--color-base2);
+}
+
+.li-nav {
+    
+    display: inline;
+    padding-left: 10px;
+    padding-right: 25px;
+    }  
+
+.a-nav{
+    color:var(--color-base2);
+}
+
+.a-nav:hover{
+    font-size: 32px;
+    padding: 8px;
+    color: var(--color-base1);
+    background-color: var(--color-base3);
+}

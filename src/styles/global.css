@@ -1,0 +1,30 @@
+:root{
+	--color-base1: rgb(0, 0, 0);
+	--color-base2 : rgb(255, 255, 255);
+	--color-base3: rgba(255, 255, 255, 0.836);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	color: var(--color-base2);
+	background-image: url(/src/imgs/fondo.jpg);
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	display: block;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}

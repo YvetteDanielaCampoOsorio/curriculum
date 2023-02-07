@@ -1,0 +1,10 @@
+---
+    import "../ItemsNav/ItemsNav.css";
+    const menu = ['Home', 'About', 'Services', 'Help'];
+---
+
+<nav class="nav">
+    <ul class="ul-nav">
+        {menu.map(element => <li class="li-nav"><a class="a-nav" href="#">{element}</a></li>)}
+    </ul>
+</nav>
